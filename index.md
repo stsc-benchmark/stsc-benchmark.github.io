@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+## The STSC Benchmark
 
-You can use the [editor on GitHub](https://github.com/stsc-benchmark/stsc-benchmark.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Existing benchmarks targeting the overall performance of trajectory prediction models lack the possibility of gaining insight into a model's behavior under specific conditions. Towards this end, a new benchmark aiming to take on a complementary role compared to existing benchmarks is proposed. It consists of synthetically generated and modified real-world trajectories from established datasets with scenario-dependent test and training splits. The benchmark provides a hierarchy of three inference tasks, representation learning, de-noising, and prediction, comprised of several test cases targeting specific aspects of a given machine learning model. This allows a differentiated evaluation of the model's behavior and generalization capabilities. As a result, a sanity check for single trajectory models is provided aiming to prevent failure cases and highlighting requirements for improving modeling capabilities.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Coming Soon
 
-### Markdown
+The benchmark, including code and evaluation instructions, will be available soon.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Contact
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/stsc-benchmark/stsc-benchmark.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having questions about our benchmark? Feel free to contact [Ronny Hug](mailto:ronny.hug@iosb.fraunhofer.de) or [Stefan Becker](mailto:stefan.becker@iosb.fraunhofer.de).
